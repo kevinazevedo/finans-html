@@ -10,18 +10,97 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <!-- Custom Style CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
     <!-- Kit Icons Font Awesome -->
     <script src="https://kit.fontawesome.com/94fb6d8945.js" crossorigin="anonymous"></script>
 
-    <title>Olá, mundo!</title>
+    <title>Finans - Finanças pessoais</title>
 
   </head>
       
   <body> 
 
-    <h1>Olá, mundo!</h1>
+    <header><!-- Início Cabeçalho -->
+      <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+        <div class="container">
+          <a href="" class="navbar-brand"><!-- Logo -->
+            <img src="img/logo.png" width="142">
+          </a>
 
-    
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="nav-principal"><!-- Início Menu -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="" class="nav-link">Recursos</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="" class="nav-link">Benefícios</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="" class="nav-link">Preços</a>
+              </li>
+
+              <li class="nav-item"></li>
+                <a href="" class="btn btn-outline-dark ml-4">Entrar</a>
+              </li>
+            </ul>
+          </div><!-- Fim Menu -->
+        </div>
+      </nav>
+    </header><!-- Fim Cabeçalho -->
+
+    <section id="home"><!-- Início seção home -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex"><!-- Textos da seção -->
+            <div class="align-self-center">
+              <h1 class="display-4 mb-2"><strong>Suas contas, descomplicadas</strong></h1>
+              <p>
+                Usado por mais de 1 milhão de pessoas, o <strong>Finans</strong> 
+                é uma ferramenta online que vai facilitar sua vida financeira.
+              </p>
+
+              <form class="mt-4 mb-4"><!-- Início Formulário -->
+                <div class="input-group input-group-lg">
+                  <input type="text" placeholder="Seu e-mail" class="form-control">
+
+                  <div class="input-group-append">
+                    <button type="button" class="btn btn-primary">Cadastre-se</button>
+                  </div>
+                </div>
+              </form><!-- Fim Formulário -->
+
+              <p class=>
+                Disponível para
+                <a href="" class="btn btn-outline-dark ml-1">
+                  <i class="fa-brands fa-android fa-lg"></i>
+                </a>
+
+                <a href="" class="btn btn-outline-dark">
+                  <i class="fa-brands fa-apple fa-lg"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-none d-md-block"><!-- Capa -->
+            <img src="img/capa-mulher.png">
+          </div>
+        </div>
+      </div>
+    </section><!-- Fim seção home -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
